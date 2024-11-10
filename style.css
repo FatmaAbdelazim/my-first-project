@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:rgb(9, 127, 245);
+}
+#header{
+     position: sticky;
+     top: 0;
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 200px;
+     background-color: rgb(246, 247, 250);
+}
+#header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+}
+#header #fa{
+      font-size: 20px;
+}
+.navication a:hover{
+    color: rgb(243, 148, 148);
+}
+section{
+    padding: 100px 200px;
+    width: 100%;
+}
+.Contact,.Projects,.Services,footer{
+    margin-bottom: 50px;
+}
+#main{
+    padding: 20px 50px;
+    min-height: 100vh;
+    width: 100%;
+    background: url(images/p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.divMain h2{
+    font-size: 30px;
+}
+#main *{
+    color: aliceblue;
+}
+.divMain div a{
+    margin-right: 30px;
+    font-size: 30px;
+}
+.Services div , .Contact div{
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+.Services div i,.Contact div i{
+    font-size: 60px;
+}
+.Services div p{
+    color: black;
+}
+.Services div i,.Services div h4 , .Services div p{
+    margin: 10px;
+}
+.Services div:hover {
+    transform: scale(1.1);
+ }
+ img{
+    width: 300px;
+    height: 150px;
+ }
+ .Projects{
+    background-color:rgb(31, 27, 27) ;
+ }
+ .div1{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    transition: 0.7s ease;
+    text-align: center;
+ }
+ .div1 div{
+    width:  300px;
+    text-align: right;
+ }
+ span,.Contact div h4 , .Contact div p{
+    color: black;
+ }
+ .Projects div img,.Projects div h5 ,.Projects div span{
+    margin: 5px;
+}
+.Projects .div1:hover {
+    transform: scale(1.1);
+ }
+ .Contact div i,.Contact div h4 , .Contact div p{
+    margin: 10px;
+}
+
+.Contact div:hover {
+    transform: scale(1.1);
+ }
+ .Contact{
+    text-align: center;
+ }
